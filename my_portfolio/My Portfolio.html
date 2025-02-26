@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>OGUNKOYA ADEDOYIN</h1>
+        <h3>Aspiring Web Developer</h3>
+        <nav>
+            <a href="#">Home </a>
+            <a href="#about-me">About me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact-me">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me" class="about-me">
+            
+            <h2>About me</h2> <br>
+            <img src="profile.jpg" alt="profile picture" class="profile-pic">
+            <p>Hi! I’m Adedoyin Ogunkoya, an aspiring web developer. I have a passion for creating clean, functional, and user-friendly websites. Over the years, I've gained experience in HTML, CSS, Javascript, and wordpress development. I enjoy working with experienced web developers, and I’m always eager to learn more and take on new challenges.</p>
+            <p>When I’m not working, you can find me swimming or playing basketball. Thanks for visiting my portfolio!</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>  <br><br>
+            <div class="project-item">  
+                <img src="project1.jpg" alt="Project 1 Image">  
+                <h3>Project Title 1</h3>  
+                <p>A brief description of what this project is about. Discuss the techniques, technologies you used, and any challenges you faced.</p>  
+                <a href="https://linktomyproject1.com" target="_blank">View Project</a>  
+            </div>  
+            <div class="project-item">  
+                <img src="project2.jpg" alt="Project 2 Image">  
+                <h3>Project Title 2</h3>  
+                <p>A brief description of what this project is about. Discuss the techniques, technologies you used, and any challenges you faced.</p>  
+                <a href="https://linktomyproject2.com" target="_blank">View Project</a>  
+            </div>  
+            <div class="project-item">  
+                <img src="project3.jpg" alt="Project 3 Image">  
+                <h3>Project Title 3</h3>  
+                <p>A brief description of what this project is about. Discuss the techniques, technologies you used, and any challenges you faced.</p>  
+                <a href="https://linktomyproject3.com" target="_blank">View Project</a>  
+            </div>     
+        </section>
+
+        <section id="contact-me" class="contact-me">
+           <h2>Contact me</h2> <br> <br> <br>
+           <form action="#" method="POST">  
+               <div class="form-group">  
+                  <!-- <label for="name">Name:</label>   -->
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required>  
+                </div>  
+                <div class="form-group">  
+                  <!-- <label for="email">Email:</label>   -->
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>  
+                </div>  
+                <div class="form-group">  
+                  <!-- <label for="message">Message:</label>   -->
+                  <textarea id="message" name="message" rows="5" placeholder="Type your message" required></textarea>  
+                </div>  
+                <button type="submit">Send Message</button>  
+            </form> 
+        </section>   
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dadoyen. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
